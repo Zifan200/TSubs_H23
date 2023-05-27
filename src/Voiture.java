@@ -1,5 +1,5 @@
 // Classe dérivée Voiture
-/*
+//TODO 5
 class Voiture extends Vehicule {
     private int nombrePortes;
 
@@ -9,7 +9,18 @@ class Voiture extends Vehicule {
         this.nombrePortes = nombrePortes;
     }
 
+    @Override
+    public String toString() {
+        return "Voiture : Marque=" + getMarque() + ", Modèle=" +  getModele() + ", Année=" + getAnnee() + ", Nombre de portes=" + getNombrePortes();
+    }
+
     // Getter et setter
-    //TODO 5
+
+    public void setNombrePortes(int nombrePortes) {
+        this.nombrePortes = nombrePortes;
+    }
+
+    public int getNombrePortes() {
+        return nombrePortes;
+    }
 }
- */

@@ -32,10 +32,11 @@ public class Main {
         // TODO 4
         Impot impot = new Impot("Magnus Carlsen", 50000, 0.25);
         impot.afficher(); // affiche "Nom du contribuable: John Doe<cr>Revenu annuel: 50000.0<cr>Taux d'imposition: 0.25<cr>Impôt à payer: 12500.0"
-        /*
+
         // TODO 5
         Vehicule vehicule = new Voiture("Toyota", "Corolla", 2023, 4);
         System.out.println(vehicule.toString()); // affiche "Voiture : Marque=Toyota, Modèle=Corolla, Année=2023, Nombre de portes=4"
+        /*
         // TODO 6
         Structure liste = new Structure();
         liste.ajouter(10);
