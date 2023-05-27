@@ -54,14 +54,13 @@ public class Main {
         } catch (ValeurHorsLimiteException e) {
             System.out.println("Erreur : " + e.getMessage());
         }
-        /*
+
         // TODO 9
         try {
             exemple.effectuerOperation(); // Lève une OperationNonAutoriseeException
-        } catch (OperationNonAutoriseeException e) {
+        } catch (ExempleExceptionsPersonnalisees.OperationNonAutoriseeException e) {
             System.out.println("Erreur : " + e.getMessage());
         }
         // TODO 10 Était fournie, donc rien à faire.
-        */
     }
 }
