@@ -15,10 +15,11 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Une exception s'est produite : " + e.getMessage());
         }
-        /*
+
         // TODO 2
         Footballeur footballeur = new Footballeur("David Beckham", 45, "Real Madrid");
         footballeur.afficherDetails(); // affiche "Nom: David Beckham<cr>Âge: 45<cr>Équipe: Real Madrid"
+        /*
         // TODO 3
         Pays pays = new Pays("France", 67000000);
         pays.afficherDetails(); // affiche "Pays: France<cr>Population: 67000000"

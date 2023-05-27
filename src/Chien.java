@@ -1,7 +1,6 @@
 // Classe dérivée
 // TODO 1.1
 public class Chien extends Animal{
-
     private String race;
 
     public Chien(String nom, int age, String race) {
