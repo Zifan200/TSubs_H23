@@ -1,4 +1,5 @@
 // Classe utilisant les exceptions personnalisées
+/*
 class ExempleExceptionsPersonnalisees {
     private int valeur;
 
@@ -17,4 +18,4 @@ class ExempleExceptionsPersonnalisees {
 
         // Logique de l'opération
     }
-}
+}*/

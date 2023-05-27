@@ -1,4 +1,5 @@
 // Classe dérivée Voiture
+/*
 class Voiture extends Vehicule {
     private int nombrePortes;
 
@@ -11,3 +12,4 @@ class Voiture extends Vehicule {
     // Getter et setter
     //TODO 5
 }
+ */

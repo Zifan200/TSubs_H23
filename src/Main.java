@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         // TODO 1
-        /*
+
         try {
             Chien monChien = new Chien("Max", 3, "Labrador");
             System.out.println(monChien); // affiche "Chien [race=Labrador, Animal [nom=Max, age=3]]"
@@ -15,6 +15,7 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Une exception s'est produite : " + e.getMessage());
         }
+        /*
         // TODO 2
         Footballeur footballeur = new Footballeur("David Beckham", 45, "Real Madrid");
         footballeur.afficherDetails(); // affiche "Nom: David Beckham<cr>Âge: 45<cr>Équipe: Real Madrid"

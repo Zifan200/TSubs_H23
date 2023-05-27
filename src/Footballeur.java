@@ -1,4 +1,4 @@
-
+/*
 // Classe dérivée Footballeur
 class Footballeur extends Joueur {
     // TODO 2
@@ -12,5 +12,5 @@ class Footballeur extends Joueur {
     }
 }
 
-
+*/
 
