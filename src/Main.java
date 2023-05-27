@@ -1,9 +1,8 @@
-
 // Classe principale
+// Adresse URL de mon gitHub : https://github.com/Zifan200/TSubs_H23
 public class Main {
     public static void main(String[] args) {
         // TODO 1
-
         try {
             Chien monChien = new Chien("Max", 3, "Labrador");
             System.out.println(monChien); // affiche "Chien [race=Labrador, Animal [nom=Max, age=3]]"
