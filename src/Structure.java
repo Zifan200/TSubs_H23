@@ -1,4 +1,4 @@
-/*class Structure {
+class Structure {
     private Noeud tete;
     private Noeud queue;
    //TODO 6
@@ -48,4 +48,4 @@
         }
         System.out.println();
     }
-}*/
+}

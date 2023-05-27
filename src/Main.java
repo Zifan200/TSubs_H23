@@ -36,7 +36,7 @@ public class Main {
         // TODO 5
         Vehicule vehicule = new Voiture("Toyota", "Corolla", 2023, 4);
         System.out.println(vehicule.toString()); // affiche "Voiture : Marque=Toyota, Modèle=Corolla, Année=2023, Nombre de portes=4"
-        /*
+
         // TODO 6
         Structure liste = new Structure();
         liste.ajouter(10);
@@ -44,6 +44,7 @@ public class Main {
         liste.ajouter(30);
         liste.afficherDebutVersFin();  // affiche "Liste de gauche à droite : 10 20 30"
         liste.afficherFinVersDebut();  // affiche: "Liste de droite à gauche : 30 20 10"
+        /*
         // TODO 7
         ExempleExceptionsPersonnalisees exemple = new ExempleExceptionsPersonnalisees();
         // TODO 8
