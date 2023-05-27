@@ -44,15 +44,17 @@ public class Main {
         liste.ajouter(30);
         liste.afficherDebutVersFin();  // affiche "Liste de gauche à droite : 10 20 30"
         liste.afficherFinVersDebut();  // affiche: "Liste de droite à gauche : 30 20 10"
-        /*
+
         // TODO 7
         ExempleExceptionsPersonnalisees exemple = new ExempleExceptionsPersonnalisees();
+
         // TODO 8
         try {
             exemple.setValeur(120); // Lève une ValeurHorsLimiteException
         } catch (ValeurHorsLimiteException e) {
             System.out.println("Erreur : " + e.getMessage());
         }
+        /*
         // TODO 9
         try {
             exemple.effectuerOperation(); // Lève une OperationNonAutoriseeException
