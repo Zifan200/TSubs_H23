@@ -1,4 +1,5 @@
 // Classe dérivée Ville
+//TODO 3
 class Ville extends Pays {
     private String nomVille;
 
@@ -9,6 +10,15 @@ class Ville extends Pays {
     }
 
     // Getter et setter
+    public String getNomVille() {
+        return nomVille;
+    }
 
-   //TODO 3
+    public void setNomVille(String nomVille) {
+        this.nomVille = nomVille;
+    }
+
+    public void afficherDetails(){
+        super.afficherDetails();
+    }
 }
